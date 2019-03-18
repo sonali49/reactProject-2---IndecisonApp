@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Users\Sonali Rai\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add babel-preset-react@6.24.1 babel-preset-enc@1.5.2
+
+PATH: 
+  C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\nodejs\;C:\Users\Sonali Rai\AppData\Local\Microsoft\WindowsApps;;C:\Users\Sonali Rai\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sonali Rai\AppData\Roaming\npm
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: https://registry.yarnpkg.com/babel-preset-enc: Not found
+      at Request.params.callback [as _callback] (C:\Users\Sonali Rai\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66255:18)
+      at Request.self.callback (C:\Users\Sonali Rai\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129397:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\Sonali Rai\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130369:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\Sonali Rai\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:130291:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "indecision-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Sonali Rai",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
